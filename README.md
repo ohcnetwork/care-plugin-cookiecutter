@@ -1,6 +1,6 @@
-# Cookiecutter template for OHC Care Python Plugin Packages
+# Cookiecutter template for OHC Care Plugins
 
-This is a Cookiecutter template to create Python packages that can be used as plugins for the [OHC Care](https://github.com/ohcnetwork/care) ecosystem.
+This is a Cookiecutter template to create django packages that can be used as plugins for the [OHC Care](https://github.com/ohcnetwork/care) ecosystem.
 
 ## Quickstart
 
