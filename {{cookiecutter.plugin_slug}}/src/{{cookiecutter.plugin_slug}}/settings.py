@@ -7,7 +7,7 @@ from django.core.signals import setting_changed
 from django.dispatch import receiver
 from rest_framework.settings import perform_import
 
-from {{cookiecutter.project_slug}}.apps import PLUGIN_NAME
+from {{cookiecutter.plugin_slug}}.apps import PLUGIN_NAME
 
 env = environ.Env()
 
@@ -98,12 +98,11 @@ class PluginSettings:  # pragma: no cover
 
 
 REQUIRED_SETTINGS = {
-    "CARE_APP_REQUIRED_CONFIG",
+    "{{cookiecutter.plugin_name.upper().replace(' ', '_')}}_CONFIG",
 }
 
 DEFAULTS = {
-    "CARE_APP_REQUIRED_CONFIG": None,
-    "CARE_APP_CONFIG_OPTIONAL": "default_value",
+    "{{cookiecutter.plugin_name.upper().replace(' ', '_')}}_OPTIONAL_CONFIG": "test",
 }
 
 plugin_settings = PluginSettings(

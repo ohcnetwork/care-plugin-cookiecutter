@@ -7,4 +7,4 @@ class BaseViewSet(GenericViewSet):
 
     @action(detail=False, methods=["get"])
     def hello(self, request, *args, **kwargs):
-        return Response({"message": "Hello from {{ cookiecutter.project_slug }} plugin!"})
+        return Response({"message": "Hello from {{ cookiecutter.plugin_slug }} plugin!"})

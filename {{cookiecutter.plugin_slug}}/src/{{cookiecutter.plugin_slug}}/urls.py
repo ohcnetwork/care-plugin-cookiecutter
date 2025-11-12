@@ -3,7 +3,7 @@ from django.shortcuts import HttpResponse
 from django.urls import path
 from rest_framework.routers import DefaultRouter, SimpleRouter
 
-from {{ cookiecutter.project_slug }}.views import BaseViewSet
+from {{ cookiecutter.plugin_slug }}.api.viewsets import BaseViewSet
 
 
 def healthy(request):
@@ -11,7 +11,7 @@ def healthy(request):
 
 
 router = DefaultRouter() if settings.DEBUG else SimpleRouter()
-router.register(r"", BaseViewSet, basename="{{ cookiecutter.project_slug }}-demo")
+router.register(r"", BaseViewSet, basename="{{ cookiecutter.plugin_slug }}-demo")
 
 urlpatterns = [
     path("health", healthy),
