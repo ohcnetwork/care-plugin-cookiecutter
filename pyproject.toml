@@ -46,7 +46,7 @@ homepage = "https://github.com/ohcnetwork/care-plugin-cookiecutter"
 
 [tool.ruff]
 exclude = [
-    "*cookiecutter.pypi_package_name*"
+    "*cookiecutter.plugin_slug*"
     ]
 
 [tool.pytest.ini_options]

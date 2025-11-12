@@ -23,6 +23,10 @@ pip install -e path/to/your/generated/plugin
 ```
 After that you can visit `http://localhost:9000/api/care_plugin/hello` to see your plugin in action!
 
+## License
+
+This project is licensed under the terms of the [MIT license](LICENSE).
+
 
 ### Credits
 

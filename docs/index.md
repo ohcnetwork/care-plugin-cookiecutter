@@ -10,10 +10,6 @@
 
 - [Prompts](prompts.md)
 
-## Advanced Features
-
-- [Console Script Setup](console_script_setup.md)
-
 ## Indices and Tables
 
 - [General Index](#)
