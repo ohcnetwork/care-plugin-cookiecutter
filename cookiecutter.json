@@ -1,0 +1,12 @@
+{
+  "full_name": "Open Health Care Network",
+  "email": "support@ohc.network",
+  "github_username": "ohcnetwork",
+  "pypi_package_name": "care_plugin",
+  "project_name": "Care Plugin Boilerplate",
+  "project_slug": "{{ cookiecutter.pypi_package_name.replace('-', '_') }}",
+  "project_short_description": "Python Boilerplate to setup django app packages as plugins for ohcnetwork/care.",
+  "pypi_username": "{{ cookiecutter.github_username }}",
+  "first_version": "0.1.0",
+  "__gh_slug": "{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}"
+}
